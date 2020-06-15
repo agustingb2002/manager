@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+body{
+			background-image: url("../Imagenes/fondo.jpg");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+}
+
+header,.main, footer {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	
+}
+
+header nav{
+	background: #240294;
+	overflow: hidden;
+}
+
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+	
+}
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	
+}
+header nav ul li a:hover{
+	background: #6F6868;
+}
+
+
+
+
+form{
+width: 450px;
+	
+	background: rgba(0,0,0,0.4);
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+	font-family: monospace;
+	
+	
+	
+}
+
+h2{
+	color: #FFF;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+	
+	
+	
+}
+
+input,textarea{
+	width: 100%;
+	margin-bottom: 20px;
+		padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+} 
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+	
+}
+
+#boton{
+	background: #31384A;
+	color: fff;
+	padding: 20px;
+	
+}
+#boton:hover{
+	cursor: pointer;
+}
+
+
+
+
